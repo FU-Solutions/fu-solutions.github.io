@@ -21,7 +21,7 @@ timezone: Europe/Berlin
 
 title: FU-Solution                           # the main title
 
-tagline: go faq yourself e   # it will display as the sub-title
+tagline: go faq yourself   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Just an IT blog of two bored guys. Sometimes it could be interesting.
@@ -32,8 +32,8 @@ url: ''
 github:
   username: fu-solutions             # change to your github username
 
-twitter:
-  username: nope            # change to your twitter username
+#twitter:
+#  username: nope            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -78,10 +78,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://chirpy-img.netlify.app'
+#img_cdn: 'https://chirpy-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: '/assets/img/avatar.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
