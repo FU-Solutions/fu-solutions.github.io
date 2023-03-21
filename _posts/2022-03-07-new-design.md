@@ -14,4 +14,4 @@ image:
 
 # Welcome
 
-Blablabla
+Currently we are busy transferring the content of our block to a GithubPage. We want to keep the maintenance effort low as well as the server infrastructure in the background to save time as well.
