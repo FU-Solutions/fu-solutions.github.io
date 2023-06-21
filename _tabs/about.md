@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> This post will be translated in the future.
+> Images will be fixed!
 {: .prompt-tip }
 
 # Fabian
