@@ -65,6 +65,8 @@ Now you should be able to openstack via horizon using the link `http://<YOUR IP>
 
 ### Problems
 
+#### Permissions
+
 I still had a problem with some permissions of the `/opt/stack` directory during the installation, which I had to correct manually.
 
 
@@ -72,6 +74,18 @@ I still had a problem with some permissions of the `/opt/stack` directory during
 cd /opt/
 chmod 755 stack
 ```
+
+#### Repository
+
+Under my Debian installation I still had the problem that the ONV software could not be installed cleanly. Here it was pointed out that the packages are too old and were replaced.
+I had to add the backports in the repo so that I could install on the appropriate packages (which are required by devstack).
+
+Just edit the `/etc/apt/source.list` and add this line:
+
+```text
+deb http://deb.debian.org/debian bullseye-backports main
+```
+-----
 
 [^]: Fancy name for kubernetes, just if you don't know :-)
 
