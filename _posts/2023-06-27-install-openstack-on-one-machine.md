@@ -7,9 +7,9 @@ tags: [openstack, linux, howto, container, iaas]
 math: true
 mermaid: true
 image:
-  path: /assets/img/openstack.jpg
+  path: /assets/img/openstack.png
   #lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: Openstack Logo.
+  alt: Openstack Logo
 ---
 
 # Virtual machine
@@ -21,7 +21,7 @@ Das Rocky Linux wurde in der Minimalkonfiguration inklusive Gast-Tools ausgeroll
 
 Installing openstack on a node via [devstack](https://opendev.org/openstack/devstack) is as easy as making a slice of toast with cheese.
 
-> A note at this point, normally you will not install Openstack with its different modules on a machine, that is really only for evaluation and some testing in this case. Normally you will roll out the different modules in a k8s[^] environment.
+> A note at this point, normally you will not install Openstack with its different modules on a machine, that is really only for evaluation and some testing in this case. Normally you will roll out the different modules in a k8s[^1] environment.
 
 We need an extra user with `sudo` permissions for the preparation and we simply create this via
 
@@ -63,9 +63,9 @@ But you are provided with enough passing shell output the whole time, so that no
 
 Now you should be able to openstack via horizon using the link `http://<YOUR IP>/dashboard`.
 
-### Problems
+## Problems
 
-#### Permissions
+### Permissions
 
 I still had a problem with some permissions of the `/opt/stack` directory during the installation, which I had to correct manually.
 
@@ -75,7 +75,7 @@ cd /opt/
 chmod 755 stack
 ```
 
-#### Repository
+### Repository
 
 Under my Debian installation I still had the problem that the ONV software could not be installed cleanly. Here it was pointed out that the packages are too old and were replaced.
 I had to add the backports in the repo so that I could install on the appropriate packages (which are required by devstack).
@@ -85,7 +85,7 @@ Just edit the `/etc/apt/source.list` and add this line:
 ```text
 deb http://deb.debian.org/debian bullseye-backports main
 ```
------
 
-[^]: Fancy name for kubernetes, just if you don't know :-)
+----
 
+[^1]: Fancy name for kubernetes, just if you don't know :-)
