@@ -86,14 +86,6 @@ Just edit the `/etc/apt/source.list` and add this line:
 deb http://deb.debian.org/debian bullseye-backports main
 ```
 
-### Closing rdp connection
-
-> Just a short hint!
-
-I recently tried `xrdp` with Linux Mint 21.1 and the cinnamon desktop.
-So I started the virtual machine, just installed `xrdp` with `apt` and changed the permissions to anybody. But after login in, my session always terminated after login.
-The reason for that is, that you cannot run a `xrdp`-session while still logged-in on the virtual machine.
-
 ----
 
 [^1]: Fancy name for kubernetes, just if you don't know :-)

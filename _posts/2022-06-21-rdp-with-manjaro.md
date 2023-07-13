@@ -41,3 +41,11 @@ sudo systemctl enable --now xrdp
 - Lines 7 enable and start the xrdp service.
 
 So after doing this, everything should work as intended.
+
+## Closing rdp connection - Linux mint
+
+> Just a short hint!
+
+I recently tried `xrdp` with Linux Mint 21.1 and the cinnamon desktop.
+So I started the virtual machine, just installed `xrdp` with `apt` and changed the permissions to anybody. But after login in, my session always terminated after login.
+The reason for that is, that you cannot run a `xrdp`-session while still logged-in on the virtual machine.
