@@ -10,3 +10,4 @@ image:
   path: /assets/img/linux.png
 ---
 
+https://roofman.me/2021/01/26/opnsense-resize-disk-space/
