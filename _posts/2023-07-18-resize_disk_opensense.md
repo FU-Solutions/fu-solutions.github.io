@@ -1,5 +1,5 @@
 ---
-title: Howto - Resize Disk on Ope
+title: Howto - Resize Disk on OpenSense
 author: w3ich3rt
 date: 2023-07-18 21:00:00 +0100
 categories: [linux]
@@ -24,7 +24,7 @@ We need to get an overview of the partitions on the disk and, if swap is enabled
 
 After "moving" the SWAP area, we can now attach the free space to the partition we want to expand. After that, we still need to resize the filesystem.
 
-> To calculate the new startsector for the swap area, you can use this [excelfile](assets/downloads/freebsdswapcalc.xlsx).
+> To calculate the new startsector for the swap area, you can use this [excelfile](/assets/downloads/freebsdswapcalc.xlsx).
 
 The commands for this procedure can be found here:
 
