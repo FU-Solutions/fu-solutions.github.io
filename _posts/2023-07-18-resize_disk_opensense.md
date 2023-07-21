@@ -1,5 +1,5 @@
 ---
-title: Howto - Resize Disk on OpenSense
+title: Howto - Resize Disk on opensense
 author: w3ich3rt
 date: 2023-07-18 21:00:00 +0100
 categories: [linux]
