@@ -2,7 +2,7 @@
 title: XRDP with Manjaro (XFCE)
 author: w3ich3rt
 date: 2023-06-20 08:00:00 +0100
-categories: [linux]
+categories: [Linux]
 tags: [manjaro, linux, remote, rdp, secure, howto, xfce]
 math: true
 mermaid: true

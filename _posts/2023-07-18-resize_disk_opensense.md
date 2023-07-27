@@ -2,7 +2,7 @@
 title: Howto - Resize Disk on Opensense
 author: w3ich3rt
 date: 2023-07-18 21:00:00 +0100
-categories: [linux]
+categories: [Linux]
 tags: [opensense, linux, howto, firewall, disk, freebsd, gpart, growfs, resize]
 math: true
 mermaid: true

@@ -2,7 +2,7 @@
 title: Howto - Analyze haproxy logs with ELK
 author: w3ich3rt
 date: 2023-07-26 20:00:00 +0100
-categories: [linux]
+categories: [Linux]
 tags: [elk, elasticsearch, kibana, logstash, loganalyzing, linux, howto, grokpattern]
 math: true
 mermaid: true

@@ -2,7 +2,7 @@
 title: Howto - Install openstack on a virtual machine
 author: w3ich3rt
 date: 2023-06-27 18:00:00 +0100
-categories: [linux]
+categories: [Linux]
 tags: [openstack, linux, howto, container, iaas]
 math: true
 mermaid: true
