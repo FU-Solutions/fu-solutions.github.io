@@ -32,7 +32,7 @@ During log analyses, it can still be quite nice to get additional information ab
 ```text
     {
       "geoip": {
-        "field": "clientip"
+        "field": "client_ip"
       }
     }
 ```
