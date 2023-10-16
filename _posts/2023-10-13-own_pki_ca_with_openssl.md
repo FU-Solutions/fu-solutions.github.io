@@ -48,7 +48,7 @@ After creating the CA-keyfile we can create the certificate of the CA
 # the following will ask for common name, country, ...
 openssl req -x509 -new -nodes -key $CANAME.key -sha256 -days 1826 -out $CANAME.crt
 # ... or you provide common name, country etc. via:
-openssl req -x509 -new -nodes -key $CANAME.key -sha256 -days 1826 -out $CANAME.crt -subj '/CN=MyOrg Root CA/C=AT/ST=Vienna/L=Vienna/O=MyOrg'
+openssl req -x509 -new -nodes -key $CANAME.key -sha256 -days 1826 -out $CANAME.crt -subj '/CN=MyOrg Root CA/C=DE/ST=Syke/L=Lower-Saxony/O=MyOrg'
 ```
 
 Of course, you can set the validity period of the certificate longer than 5 years. Certainly feasible in the Homelab ;-)
